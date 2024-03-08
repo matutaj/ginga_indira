@@ -1,0 +1,252 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+li{
+    list-style: none;
+}
+.menu{
+display: flex;
+justify-content: space-around;
+align-items: center;
+padding: 7px;
+width: 100%;
+background: blue;
+
+}
+.menu ul{
+    display: flex;
+    margin-left:10px;
+    
+}
+.menu ul li a{
+    text-decoration: none;
+    color: #fff;
+
+}
+.menu ul li{
+    margin: 12px;
+    color: white;
+    font-size: 14px;
+    font-weight: 500;
+    cursor: pointer;
+   transition: all .3s ease;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.logo{
+    margin: 7px;
+    font-size: 20px;
+    color: white;
+    font-weight: 900;
+}
+.login button{
+    background: white;
+    border-radius: 30px;
+    height: 30px;
+    width: 90px;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    border: none;
+    color: blue;
+    cursor: pointer;
+
+}
+.login button:hover{
+    border: 2px solid white;
+    background: none;
+    color: white;
+}
+.banner{
+   background-image: url(img/blog/blog-2.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+   width: 100%;
+height: 510px;  
+margin-top: -100px;
+display: flex;
+align-items: center;  
+justify-content: center;
+
+cursor: pointer;
+}
+.banner h1{
+
+    color: white;
+font-size: 55px;
+}
+.banner p{
+    color: white;
+    font-size: 15px;
+    text-align: center;
+}
+
+.about-us{
+    display: flex;
+    flex-direction: column;
+    margin: 20px 0;
+    justify-content: center;
+    align-items: center;
+}
+.about{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+}
+.about img{
+    width: 350px;
+    height: 300px;
+}
+.about p{
+    font-size: 14px;
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 500px;
+    line-height: 40px;
+    margin-left: -50px;
+}
+.saloes{
+margin: 20px 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+.saloes img{
+    width: 350px;
+    height: 250px;
+    
+}
+.saloes div {
+    width: 200px;
+    padding: 7px;
+}
+.text{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+
+}
+.Horario ul li{
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+border: 1px solid black;
+
+}
+.sobre-nos{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items:center ;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.sobre-nos div{
+    width: 500px;
+    padding: 7px;
+}
+.sobre-nos div img{
+    margin: 100px 0 0 0 ;
+
+}
+.sobre-nos div h1{
+    font-size: 50px;
+    font-weight: bolder;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.agendar button{
+    background-color: rgb(45, 45, 204);
+    color:#fff;
+    width: 250px;
+    height: 50px;
+    padding: 10px;
+    font-weight: 600;
+    font-size: 18px;
+    border:none;
+    transition: all .3s ease;
+}
+.agendar button:hover{
+    background-color: #fff;
+    color:rgb(45, 45, 204) ;
+    border: 2px solid rgb(45, 45, 204);
+}
+.contabilidade{
+    background-image: radial-gradient(rgba(0, 0, 0,0.75), rgba(0,0,0,0.75)),url(img/blog/blog-2.jpg)  ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 82vh;
+    width: 100%;
+    color: #fff;
+font-family: Arial, Helvetica, sans-serif;
+}
+.contabilidade h1{
+
+font-size: 40px;
+font-weight: 700;
+padding: 20px;
+text-align: center;
+}
+
+#dizeres {
+    font-size: 19 px;
+    padding: 0 13px;
+text-align: center;}
+.componente{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+}
+
+.componente div{
+   width: 200px;
+
+}
+.componente div h2{
+    font-size: 50px;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.componente div p{
+    font-size: 25px;
+    margin: 0 -10px;
+}
+.testemunho{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+.divTestemunho{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    margin-top: 20px;
+}
+.divTestemunho div{
+width: 500px;
+}
+.divTestemunho div div{
+display: flex;
+justify-content: start;
+align-items: start;
+padding: 12px;
+
+}
+.divTestemunho div div  h4{
+    margin: 20px 0 0 20px; 
+
+}
+
+
+
